@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins';
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0E293C;
+    font-weight: 600;
+}
+
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+
+.nav-link span{
+    color: 
+}
+
+
+.carousel-caption {
+    height: 500px;
+    width: 450px;
+    margin-left: 120px;
+    text-align: left;
+    
+}
+
+.carousel-caption span {
+    font-weight: 600;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+}
+
+.carousel-caption p {
+    font-size: 1.875rem;
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+
+.carousel-caption a {
+    margin-top: 17px;
+    margin-left: 90px;
+}
+
+/* Category */
+
+.kategori {
+    margin-top: 20px;
+    
+}
+
+.figure h5{
+    color: #171717;
+}
+
+.testimony {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.test1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text3 {
+    font-size: 1rem;
+}
+
+.text4 {
+    font-size: 0.8rem;
+}
+
+footer {
+    
+    background-color: #0E293C;
+    height: 300px;
+}
+
+footer .teks1 {
+    font-size: 0.9rem;
+    font-family: 'Montserrat';
+}
+
+footer .copyright {
+    
+    height: 50px;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
