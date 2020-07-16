@@ -26,6 +26,8 @@ body {
 }
 
 
+
+
 .carousel-caption {
     height: 500px;
     width: 450px;
@@ -103,5 +105,80 @@ footer .copyright {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
+}
+
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.product-thumbnail-container {
+    background-color: aliceblue;
+    box-shadow: 0 1px 14px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    width: 360px;
+    margin: auto;
+    transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+    text-decoration: none;
+}
+
+.input-group {
+    width: 70%;
+}
+
+.btn-product .btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+    font-size: 16px;
+    font-weight: 200px;
+    color: #868686;
+    line-height: 28px;
+}
+
+.tab-pane {
+    color: #868686;
+}
+
+.checkout-detail {
+    background-color: #F6F7FB;
+    border: 1px solid #black;
+}
+
+@media screen and (max-width: 576px) {
+
+    
+
+    
+
+
+
+    .bread {
+        margin-top: 200px;
+    }
+    footer {
+        display: flex;
+    }
+    footer .about {
+        display: none;
+    }
+    footer .category {
+        display: none;
+    }
+    
 
 }
