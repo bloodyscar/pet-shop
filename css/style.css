@@ -27,10 +27,10 @@ body {
 
 .carousel-caption {
     position: absolute;
-    height: 500px;
+    height: 600px;
     width: 450px;
     margin-left: 120px;
-    padding-top: 100px;
+
     text-align: left;
 
 }
