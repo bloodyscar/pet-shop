@@ -15,7 +15,7 @@ body {
     margin-right: 20px;
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
 
@@ -26,11 +26,13 @@ body {
 
 
 .carousel-caption {
+    position: absolute;
     height: 500px;
     width: 450px;
     margin-left: 120px;
+    padding-top: 100px;
     text-align: left;
-    
+
 }
 
 .carousel-caption span {
@@ -56,10 +58,10 @@ body {
 
 .kategori {
     margin-top: 20px;
-    
+
 }
 
-.figure h5{
+.figure h5 {
     color: #171717;
 }
 
@@ -83,7 +85,7 @@ body {
 }
 
 footer {
-    
+
     background-color: #0E293C;
     height: 300px;
 }
@@ -94,7 +96,7 @@ footer .teks1 {
 }
 
 footer .copyright {
-    
+
     font-size: 11px;
     height: 50px;
     font-family: 'Montserrat';
@@ -160,26 +162,54 @@ footer .copyright {
 
 
 
-@media screen and (max-width: 576px) {
-    
-    
 
-    
+@media screen and (max-width: 1366px) {
+
+    .carousel-caption h1,
+    p,
+    .get {
+        margin-top: -10px !important;
+        margin-top: 50px;
+    }
+
+    .carousel-caption p {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .carousel-caption h1,
+    p,
+    .get {
+        margin-top: -10px !important;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
 
 
 
     .bread {
         margin-top: 200px;
     }
+
     footer {
         display: flex;
     }
+
     footer .about {
         display: none;
     }
+
     footer .category {
         display: none;
     }
-    
+
 
 }
